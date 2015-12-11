@@ -58,7 +58,15 @@ namespace WpfApplication1
 
         private void btnDelete_Click(object sender, RoutedEventArgs e)
         {
-            tbLog.Text = "Deleted";
+            string DeleteFromCustonaerTable = @"delete from Customer";
+            SQLiteConnection connDel = new SQLiteConnection("Data Source = MyDatabase.sqlite");
+            connDel.Open();
+
+            SQLiteCommand deleteCommand = new SQLiteCommand(DeleteFromCustonaerTable, connDel);
+            deleteCommand.ExecuteNonQuery();
+
+            connDel.Close();
+            //tbLog.Text = "Deleted";
         }
 
         

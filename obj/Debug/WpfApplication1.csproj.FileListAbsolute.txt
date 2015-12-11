@@ -19,3 +19,6 @@ D:\TestProjects\SQLiteTest\WpfApplication1\bin\Debug\System.Data.SQLite.Linq.dll
 D:\TestProjects\SQLiteTest\WpfApplication1\bin\Debug\EntityFramework.xml
 D:\TestProjects\SQLiteTest\WpfApplication1\bin\Debug\EntityFramework.SqlServer.xml
 D:\TestProjects\SQLiteTest\WpfApplication1\bin\Debug\System.Data.SQLite.xml
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder\SQLiteTest\bin\Debug\WpfApplication1.exe.config
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder\SQLiteTest\obj\Debug\WpfApplication1.exe
+C:\Users\Romchick\Documents\Visual Studio 2013\Projects\New folder\SQLiteTest\obj\Debug\WpfApplication1.pdb
