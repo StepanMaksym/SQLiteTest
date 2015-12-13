@@ -2,17 +2,21 @@
 using System.Data.SQLite;
 using System.Text;
 using System.Windows;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace WpfApplication1
 {
     public partial class SecondWindow : Window
     {
         SQLiteConnection conn = new SQLiteConnection("Data Source = MyDatabase.sqlite");
-        
+        SQLiteDataAdapter adapter;
         public SecondWindow()
         {
             InitializeComponent();
             tbSec.Text = readFromCustomerDbTable(conn);
+            FillDataGrid();
         }
 
         private void btnOk_Click(object sender, RoutedEventArgs e)
@@ -35,5 +39,14 @@ namespace WpfApplication1
             conn.Close();
             return sb.ToString();
             }
+
+        private void FillDataGrid()
+        {
+            var sqliteAdapter = new SQLiteDataAdapter("SELECT * FROM Customer", conn);
+            DataTable table = new DataTable();
+            sqliteAdapter.Fill(table);
+            dgCustomers.ItemsSource = table.DefaultView;
+            
+        }
     }
 }
