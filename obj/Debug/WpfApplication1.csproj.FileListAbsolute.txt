@@ -65,3 +65,6 @@ C:\Users\Olezhuk\Desktop\SQLiteTest-master\obj\Debug\WpfApplication1_MarkupCompi
 C:\Users\Olezhuk\Desktop\SQLiteTest-master\obj\Debug\WpfApplication1.g.resources
 C:\Users\Olezhuk\Desktop\SQLiteTest-master\obj\Debug\WpfApplication1.Properties.Resources.resources
 C:\Users\Olezhuk\Desktop\SQLiteTest-master\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\Users\Olezhuk\Desktop\SQLiteTest\bin\Debug\WpfApplication1.exe.config
+C:\Users\Olezhuk\Desktop\SQLiteTest\obj\Debug\WpfApplication1.exe
+C:\Users\Olezhuk\Desktop\SQLiteTest\obj\Debug\WpfApplication1.pdb
