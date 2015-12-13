@@ -3,17 +3,19 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Content="Update" Name="btnUpdate" HorizontalAlignment="Left" Margin="396,244,0,0" VerticalAlignment="Top" Width="75" Click="btnUpdate_Click"/>
-        <Button Content="Delete" Name="btnDelete" HorizontalAlignment="Left" Margin="315,244,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click"/>
-        <TextBlock HorizontalAlignment="Left" Name="tbLog" Margin="89,23,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="301" Height="43"/>
+        <Button Content="Update" Name="btnUpdate" HorizontalAlignment="Left" Margin="432,288,0,0" VerticalAlignment="Top" Width="75" Click="btnUpdate_Click" ToolTip="Add to databse"/>
+        <Button Content="Delete" Name="btnDelete" HorizontalAlignment="Left" Margin="352,288,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click" ToolTip="Delete from DB (required to enter all values)"/>
+        <TextBlock HorizontalAlignment="Left" Name="tbLog" Margin="89,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" Height="111"/>
 
-        <TextBox HorizontalAlignment="Left" Name="tbName" Height="23" Margin="173,94,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Name="tbSecondName" Height="23" Margin="173,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Name="tbYear" Height="23" Margin="173,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
-        <Label Content="First name" HorizontalAlignment="Left" Margin="89,94,0,0" VerticalAlignment="Top"/>
-        <Label Content="Second name" HorizontalAlignment="Left" Margin="56,133,0,0" VerticalAlignment="Top" Width="98">
+        <TextBox HorizontalAlignment="Left" Name="tbName" Height="23" Margin="146,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Name="tbSecondName" Height="23" Margin="146,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Name="tbYear" Height="23" Margin="146,246,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="First name" HorizontalAlignment="Left" Margin="62,162,0,0" VerticalAlignment="Top"/>
+        <Label Content="Second name" HorizontalAlignment="Left" Margin="29,201,0,0" VerticalAlignment="Top" Width="98">
 
         </Label>
-        <Label Content="Year&#xD;&#xA;" HorizontalAlignment="Left" Margin="116,176,0,0" VerticalAlignment="Top" Height="25"/>
+        <Label Content="Year&#xD;&#xA;" HorizontalAlignment="Left" Margin="89,244,0,0" VerticalAlignment="Top" Height="25"/>
+        <Button Content="Show" Name="btnShow" HorizontalAlignment="Left" Margin="29,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" ToolTip="Show all data in new window"/>
+        <Button Content="DELETEALL" Name="btnDELETEALL" HorizontalAlignment="Left" Margin="122,288,0,0" VerticalAlignment="Top" Width="75" Click="btnDELETEALL_Click" ToolTip="Delete All data from DB"/>
     </Grid>
 </Window>
