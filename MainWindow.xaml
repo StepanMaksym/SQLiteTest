@@ -5,7 +5,10 @@
     <Grid>
         <Button Content="Update" Name="btnUpdate" HorizontalAlignment="Left" Margin="432,288,0,0" VerticalAlignment="Top" Width="75" Click="btnUpdate_Click" ToolTip="Add to databse"/>
         <Button Content="Delete" Name="btnDelete" HorizontalAlignment="Left" Margin="352,288,0,0" VerticalAlignment="Top" Width="75" Click="btnDelete_Click" ToolTip="Delete from DB (required to enter all values)"/>
-        <TextBlock HorizontalAlignment="Left" Name="tbLog" Margin="89,23,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="313" Height="111"/>
+        <TextBlock HorizontalAlignment="Left" x:Name="tbLog" Margin="89,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="210" Height="111"><InlineUIContainer>
+       		
+        	</InlineUIContainer></TextBlock>
+        
 
         <TextBox HorizontalAlignment="Left" Name="tbName" Height="23" Margin="146,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Name="tbSecondName" Height="23" Margin="146,204,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
@@ -17,5 +20,6 @@
         <Label Content="Year&#xD;&#xA;" HorizontalAlignment="Left" Margin="89,244,0,0" VerticalAlignment="Top" Height="25"/>
         <Button Content="Show" Name="btnShow" HorizontalAlignment="Left" Margin="29,288,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" ToolTip="Show all data in new window"/>
         <Button Content="DELETEALL" Name="btnDELETEALL" HorizontalAlignment="Left" Margin="122,288,0,0" VerticalAlignment="Top" Width="75" Click="btnDELETEALL_Click" ToolTip="Delete All data from DB"/>
+        <Label Content="Hello" HorizontalAlignment="Left" Margin="406,204,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold"/>
     </Grid>
 </Window>

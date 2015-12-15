@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Olezhuk\Desktop\SQLiteTest\obj\Debug\
+D:\C#\VSProjects\WPF\SQLiteTest\obj\Debug\
 WpfApplication1
 none
 false
 DEBUG;TRACE
-C:\Users\Olezhuk\Desktop\SQLiteTest\App.xaml
+D:\C#\VSProjects\WPF\SQLiteTest\App.xaml
 21204552814
 
-71268956686
-18538594018
+71854889806
+181072997007
 MainWindow.xaml;SecondWindow.xaml;
 
 False
